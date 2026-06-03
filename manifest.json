@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Video Color Adjuster Pro",
-  "version": "2.1",
-  "description": "Adjust video colors on any website (Chrome + Firefox)",
+  "version": "2.0",
+  "description": "Advanced real-time adjustment of saturation, brightness, contrast, hue, grayscale & opacity for any video",
   "permissions": ["activeTab", "storage"],
   "host_permissions": ["<all_urls>"],
   "content_scripts": [
@@ -19,8 +19,7 @@
   "commands": {
     "toggle-panel": {
       "suggested_key": {
-        "default": "Alt+Shift+V",
-        "mac": "Alt+Shift+V"
+        "default": "Alt+Shift+V"
       },
       "description": "Toggle video adjuster panel"
     }
